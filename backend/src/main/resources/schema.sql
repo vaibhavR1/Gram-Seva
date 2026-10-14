@@ -1,0 +1,1 @@
+-- Production PostgreSQL schema is in postgres-schema.sql

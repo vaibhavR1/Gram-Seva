@@ -1,0 +1,56 @@
+# Maven / Java
+**/target/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Node / Angular
+**/node_modules/
+node_modules/
+frontend/dist/
+dist/
+frontend/.angular/
+.angular/
+frontend/tmp/
+out-tsc/
+bazel-out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE & Editor files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Environment and sensitive data
+*.env
+*.env.local
+*.env.*.local
+
+# Logs
+logs/
+*.log
